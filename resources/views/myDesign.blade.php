@@ -63,7 +63,7 @@
                                                     </b>
                                                     <a onclick="submit_as_form('{{url('api/deleteDesign')}}','clouthes_id',{{ $item->id }})">
                                                         <p style=" cursor: pointer;  color: red;font-size:10px;float: right;">
-                                                            移除</p></a>
+                                                             移除</p></a>
 
                                                     <div style="clear: both"></div>
                                                     <p style=" font-size:15px ;">描述:   {{ $item->desc }}</p>
