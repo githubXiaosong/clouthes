@@ -95,7 +95,7 @@
                                 <a href="{{ url('/logout') }}"
                                    onclick="event.preventDefault();
                                                  document.getElementById('logout-form').submit();">
-                                    Logout
+                                    退出
                                 </a>
 
                                 <form id="logout-form" action="{{ url('/logout') }}" method="POST"
@@ -117,17 +117,11 @@
     <footer style="background: #000000" class="visible-md-block visible-lg-block">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
-                    <h6>Copyright &copy;XiaoSong</h6>
+                <div class="col-sm-2 col-sm-offset-2">
+                    <h6>Copyright &copy;RuiRui</h6>
                 </div>
 
-                <div class="col-sm-4">
-                    <h6>关于我们</h6>
 
-                    <p>
-                        河北科技大学@小松
-                    </p>
-                </div>
 
                 <div class="col-sm-2">
                     <h6>导航</h6>
@@ -149,7 +143,7 @@
                 </div>
 
                 <div class="col-sm-2">
-                    <h6>本网站由<span class="glyphicon glyphicon-heart"></span>XiaoSong制作</h6>
+                    <h6>本网站由<span class="glyphicon glyphicon-heart"></span>RuiRui制作</h6>
                 </div>
             </div>
         </div>
