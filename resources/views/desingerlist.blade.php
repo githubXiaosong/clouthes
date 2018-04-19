@@ -64,7 +64,7 @@
 
                                             <p> eamil: {{ $desinger->email }}</p>
 
-                                            <p> {{ $desinger->sex==0?'女':'男' }}</p>
+                                            <p> {{ $desinger->sex==sex_woman?'女':'男' }}</p>
 
                                             <p> 入驻时间: {{ $desinger->created_at }}</p>
 
