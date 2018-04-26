@@ -42,6 +42,10 @@
                                     <input type="text" name="email" value="{{ $user->email }}" class="form-control">
                                 </div>
                                 <div class="form-group">
+                                    <label>手机号</label>
+                                    <input type="text" name="phone" value="{{ $user->phone }}" class="form-control">
+                                </div>
+                                <div class="form-group">
                                     <label>年龄</label>
                                     <input type="text" name="age" value="{{ $user->age }}" class="form-control">
                                 </div>

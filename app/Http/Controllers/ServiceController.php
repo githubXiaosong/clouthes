@@ -171,6 +171,7 @@ class ServiceController extends Controller
                 'name' => 'required|max:255',
                 'email' => 'required|email|max:255',
                 'desc' => 'required|max:255',
+                'phone' => 'required|digits:11',
                 'age' => 'integer',
 //                'cover' => 'image',
                 'identity' => 'required|in:' . identity_common . ',' . identity_designer,
@@ -189,6 +190,7 @@ class ServiceController extends Controller
         $user->email = rq('email');
         $user->desc = rq('desc');
         $user->age = rq('age');
+        $user->phone = rq('phone');
         if ($request->avatar) {
             $avatar_path = $request->avatar->store('images', 'public');
             $user->avatar_uri = $avatar_path;

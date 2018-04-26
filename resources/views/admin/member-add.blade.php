@@ -52,6 +52,19 @@
             </div>
         </div>
         <div class="layui-form-item">
+            <label for="L_phone" class="layui-form-label">
+                <span class="x-red">*</span>手机号
+            </label>
+
+            <div class="layui-input-inline">
+                <input type="text" id="L_phone" name="phone" required="" lay-verify="phone"
+                       autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red">*</span>请输入您的手机号码
+            </div>
+        </div>
+        <div class="layui-form-item">
             <label for="L_username" class="layui-form-label">
                 <span class="x-red">*</span>昵称
             </label>

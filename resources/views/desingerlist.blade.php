@@ -62,7 +62,7 @@
 
                                             <p> 年龄: {{ $desinger->age }}</p>
 
-                                            <p> eamil: {{ $desinger->email }}</p>
+                                            <p> 手机号: {{ $desinger->phone }}</p>
 
                                             <p> {{ $desinger->sex==sex_woman?'女':'男' }}</p>
 

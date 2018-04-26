@@ -82,6 +82,7 @@ class ServiceController extends Controller
                 'name' => 'required|max:255',
                 'email' => 'required|email|max:255|unique:users',
                 'password' => 'required|min:6|confirmed',
+                'phone' => 'required|digits:11',
                 'desc' => 'required|max:255',
             ],
             [
@@ -95,6 +96,7 @@ class ServiceController extends Controller
 
         $user->name = rq('name');
         $user->email = rq('email');
+        $user->phone = rq('phone');
         $user->password = bcrypt(rq('password'));
         $user->sex = rq('sex');
         $user->identity = is_null(rq('identity')) ? '10' : '0';

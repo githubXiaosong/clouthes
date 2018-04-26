@@ -56,6 +56,7 @@
             <th>用户名</th>
             <th>性别</th>
             <th>邮箱</th>
+            <th>手机号</th>
             <th>年龄</th>
             <th>加入时间</th>
             <th>状态</th>
@@ -74,6 +75,7 @@
                 <td>{{ $user->name }}</td>
                 <td>{{ $user->sex==sex_man?'男':'女' }}</td>
                 <td>{{ $user->email }}</td>
+                <td>{{ $user->phone }}</td>
                 <td>{{ $user->age }}</td>
                 <td>{{ $user->created_at }}</td>
                 <td class="td-status">
